@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cricket Team</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background: url('indialogo.jpg'); 
+            background-size: auto;
+            color: black;
+        }
+
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 200px;
+            font-weight: bold;
+        }
+
+        .Batter::after {
+            content: " (Batter)";
+            color: #3498db;
+        }
+
+        .Bowler::after {
+            content: " (Bowler)";
+            color: #e74c3c;
+        }
+
+        .BowlingAllrounder::after {
+            content: " (Bowling Allrounder)";
+            color: #fd0303;
+        }
+
+        .WK-Batter::after {
+            content: " (WK-Batter)";
+            color: #ff0303;
+        }
+    </style>
+</head>
+<body>
+    <h1>Indian Cricket Team</h1>
+    <ol>
+        <li class="Batter">Rohit Sharma(C) </li>
+        <li class="Batter">Shubman Gill </li>
+        <li class="Batter">Virat Kohli </li>
+        <li class="Batter">Shreyas Iyer </li>
+        <li class="WK-Batter">KL Rahul </li>
+        <li class="Batter">Suryakumar Yadav </li>
+        <li class="BowlingAllrounder">Ravindra Jadeja </li>
+        <li class="Bowler">Mohammed Shami </li>
+        <li class="Bowler">Jasprit Bumrah </li>
+        <li class="Bowler">Kuldeep Yadav </li>
+        <li class="Bowler">Mohammed Siraj </li>
+    </ol>
+</body>
+</html>
